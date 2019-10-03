@@ -1,11 +1,15 @@
 import React from 'react';
 
 class Project3 extends React.Component{
+  componentDidMount(){
+    window.addEventListener('load', PageLoad(), FirstLoad(), Portfolio(),     PlayVideo(),
+  );
+  }
     render(){
         return(
-            <main>		
+            <main style={{    width: '100%'}}>		
             {/* Preloader */}
-            <div className="preloader-wrap">
+            {/* <div className="preloader-wrap">
               <div className="outer">
                 <div className="inner">
                   <div className="percentage" id="precent" />
@@ -16,11 +20,11 @@ class Project3 extends React.Component{
                   <div className="headphones-text">Turn up the volume for the<br />best experience</div>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*/Preloader */}    
             <div className="cd-index cd-main-content">
               {/* Page Content */}
-              <div id="page-content" className="light-content">
+              <div id="page-content">
                 {/* Header */}
                 <header className="classic-menu">
                   <div id="header-container">
@@ -33,7 +37,7 @@ class Project3 extends React.Component{
                     </div>
                     {/*/Logo */}             
                     {/* Navigation */}
-                    <nav> 
+                    {/* <nav> 
                       <div className="nav-height">
                         <div className="outer">
                           <div className="inner">           
@@ -45,7 +49,7 @@ class Project3 extends React.Component{
                           </div>
                         </div> 
                       </div>          
-                    </nav>
+                    </nav> */}
                     {/*/Navigation */}
                     {/* Menu Burger */}
                     <div id="burger-wrapper" className="parallax-wrap">
@@ -63,7 +67,7 @@ class Project3 extends React.Component{
                   {/* Main */}
                   <div id="main">
                     {/* Hero Section */}
-                    <div id="hero" className="has-image">
+                    <div id="hero" className="has-image" style={{opacity : '2'}}>
                       <div id="hero-styles" className="parallax-onscroll">
                         <div id="hero-caption" className="text-align-center">
                           <div className="inner">
@@ -85,7 +89,7 @@ class Project3 extends React.Component{
                     </div>
                     <div id="hero-bg-wrapper">
                       <div id="hero-image-parallax">
-                        <div id="hero-bg-image" style={{backgroundImage: 'url(images/03hero.jpg)'}}>
+                        <div id="hero-bg-image" className="saab">
                           <div className="hero-video-wrapper">
                             <video loop muted className="bgvid">
                               <source src="http://mathematic.tv/wp-content/uploads/2017/05/ELIE_SAAB_40s_LOOP-preview.mp4" type="video/mp4" />
@@ -198,33 +202,6 @@ class Project3 extends React.Component{
                     {/*/Main Content */} 
                   </div>
                   {/*/Main */} 
-                  {/* Footer */}
-                  <footer className="hidden">        	
-                    <div id="footer-container">
-                      <div className="button-wrap left">
-                        <div className="icon-wrap parallax-wrap">
-                          <div className="button-icon parallax-element">
-                            <div className="bars">
-                              <div className="bar" /><div className="bar" /><div className="bar" /><div className="bar" /><div className="bar" />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="button-text"><span data-on="Sound On" data-off="Sound Off">Sound On</span></div> 
-                      </div>
-                      <div className="socials-wrap">            	
-                        <div className="socials-icon"><i className="fa fa-share-alt" aria-hidden="true" /></div>
-                        <div className="socials-text">Follow Us</div>
-                        <ul className="socials">
-                          <li><span className="parallax-wrap"><a className="parallax-element" href="https://www.dribbble.com/clapat" target="_blank">Db</a></span></li>
-                          <li><span className="parallax-wrap"><a className="parallax-element" href="https://www.twitter.com/clapatdesign" target="_blank">Tw</a></span></li>
-                          <li><span className="parallax-wrap"><a className="parallax-element" href="https://www.behance.com/clapat" target="_blank">Be</a></span></li>
-                          <li><span className="parallax-wrap"><a className="parallax-element" href="https://www.facebook.com/clapat.ro" target="_blank">Fb</a></span></li>
-                          <li><span className="parallax-wrap"><a className="parallax-element" href="https://www.instagram.com/clapat.themes/">In</a></span></li>
-                        </ul>                
-                      </div>
-                    </div>
-                  </footer>
-                  {/*/Footer */}
                 </div>    
                 {/*/Content Scroll */}
               </div>    

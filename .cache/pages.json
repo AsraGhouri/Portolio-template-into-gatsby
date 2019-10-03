@@ -53,28 +53,28 @@
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "project-2.json",
-        "path": "/Project2/"
+        "path": "/project2/"
     },
     {
         "componentChunkName": "component---src-pages-project-3-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "project-3.json",
-        "path": "/Project3/"
+        "path": "/project3/"
     },
     {
         "componentChunkName": "component---src-pages-project-4-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "project-4.json",
-        "path": "/Project4/"
+        "path": "/project4/"
     },
     {
         "componentChunkName": "component---src-pages-project-5-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "project-5.json",
-        "path": "/Project5/"
+        "path": "/project5/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

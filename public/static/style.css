@@ -1654,7 +1654,7 @@ nav, nav.open {
     z-index: 10;
     opacity:0;
     position:relative;
-    color:#000;
+    /* color:#000; */
     transform: translateY(15vh);
     -webkit-transform: translateY(15vh);
 }
@@ -1671,7 +1671,7 @@ nav, nav.open {
     opacity:1!important;
 }
 
-.light-content .hero-subtitle {
+#hero.hero-subtitle {
     color:#fff;		
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/header';
-import { Link } from "gatsby-link"
+import  Link  from "gatsby-link"
 class Home extends React.Component {
   componentDidMount(){
     window.addEventListener('load', PageLoad(), FirstLoad(), Portfolio(),
@@ -20,75 +20,10 @@ class Home extends React.Component {
     return (
       <div>
         <main style={{    width: '100%'}}>
-          {/* Preloader */}
-          {/* <div className="preloader-wrap">
-            <div className="outer">
-              <div className="inner">
-                <div className="percentage" id="precent" />
-                <div className="trackbar">
-                  <div className="loadbar" />
-                </div>
-                <div className="headphones" />
-                <div className="headphones-text">Turn up the volume for the<br />best experience</div>
-              </div>
-            </div>
-          </div> */}
           {/*/Preloader */}
           <div className="cd-index cd-main-content">
             {/* Page Content */}
             <div id="page-content">
-              {/* Header */}
-              <header className="classic-menu">
-                <div id="header-container">
-                  {/* Logo */}
-                  <div id="logo" className="hide-ball">
-                    {/* <Link className="ajax-link" data-type="page-transition" to="/">
-                      <img className="black-logo" src="static/images/logo.png" alt="ClaPat Logo" />
-                      <img className="white-logo" src="static/images/logo-white.png" alt="ClaPat Logo" />
-                    </Link> */}
-                  </div>
-                  {/*/Logo */}
-                  {/* Navigation */}
-                  <nav>
-                    <div class="nav-height">
-                      <div class="outer">
-                        <div class="inner">
-                          {/* <ul data-breakpoint={1025} className="flexnav">
-                          <li className="link menu-timeline"><Link  to="/home" className="ajax-link" data-type="page-transition"><span data-hover="Works">Works</span></Link></li>
-                          <li className="link menu-timeline"><Link to="/about" className="ajax-link" data-type="page-transition" ><span data-hover="About">About</span></Link></li>
-                          <li className="link menu-timeline"><Link to="/contact" className="ajax-link" data-type="page-transition" ><span data-hover="Contact">Contact</span></Link></li>
-                          </ul> */}
-                        </div>
-                      </div>
-                    </div>
-                  </nav>
-                  {/*/Navigation */}
-                  {/* Menu Burger */}
-                  <div id="burger-wrapper" className="parallax-wrap">
-                    <div id="menu-burger" className="parallax-element">
-                      <span />
-                      <span />
-                    </div>
-                  </div>
-                  {/*/Menu Burger */}
-                </div>
-              </header>
-              {/*/Header */}
-              {/* Sidebar Overlay */}
-              <div id="sidebar-overlay">
-                <div id="close-sidebar" />
-                <div className="outer">
-                  <div className="inner">
-                    <ul id="filters">
-                      <li className="sidebar-timeline link"><a id="all" href="#" data-filter="*" data-hover="ALL" className="active ">ALL</a></li>
-                      <li className="sidebar-timeline link"><a href="#" data-filter=".photo" data-hover="PHOTO" className>PHOTO</a></li>
-                      <li className="sidebar-timeline link"><a href="#" data-filter=".architecture" data-hover="ARCHITECTURE" className>ARCHITECTURE</a></li>
-                      <li className="sidebar-timeline link"><a href="#" data-filter=".design" data-hover="DESIGN" className>DESIGN</a></li>
-                      <li className="sidebar-timeline link"><a href="#" data-filter=".video" data-hover="VIDEO" className>VIDEO</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
               {/* Sidebar Overlay */}
               {/* Content Scroll */}
               <div id="content-scroll">
@@ -134,8 +69,9 @@ class Home extends React.Component {
                           <div className="item photo">
                             <div className="item-appear">
                               <div className="item-content">
-                                {/* <Link className="item-wrap ajax-link-project" data-type="page-transition" to={"/project1"} /> */}
+                                <Link className="item-wrap ajax-link-project animated bounce delay-2s" data-type="page-transition" to="/project1" >
                                 <div className="item-wrap-image"><div className="item-image" data-src="static/images/01hero.jpg" /></div>
+                                </Link>
                                 <div className="item-caption">
                                   <h2 className="item-title">THE QUEEN</h2>
                                   <h4 className="item-cat"><span data-hover="View Case">Photography</span></h4>
@@ -146,8 +82,9 @@ class Home extends React.Component {
                           <div className="item photo">
                             <div className="item-appear">
                               <div className="item-content">
-                                <a className="item-wrap ajax-link-project" data-type="page-transition" href="project02.html" />
+                                <Link className="item-wrap ajax-link-project" data-type="page-transition"  to="/project2" >
                                 <div className="item-wrap-image"><div className="item-image" data-src="static/images/02hero.jpg" /></div>
+                                </Link>
                                 <div className="item-caption">
                                   <h2 className="item-title">DARK PATH</h2>
                                   <h4 className="item-cat"><span data-hover="View Case">Photography</span></h4>
@@ -158,7 +95,7 @@ class Home extends React.Component {
                           <div className="item video">
                             <div className="item-appear">
                               <div className="item-content">
-                                <a className="item-wrap ajax-link-project" data-type="page-transition" href="project03.html" />
+                                <Link className="item-wrap ajax-link-project" data-type="page-transition"  to="/project3" >
                                 <div className="item-wrap-image"><div className="item-image" data-src="static/images/03hero.jpg">
                                   <div className="hero-video-wrapper">
                                     <video loop muted className="bgvid">
@@ -167,6 +104,7 @@ class Home extends React.Component {
                                     </video>
                                   </div>
                                 </div></div>
+                               </Link>
                                 <div className="item-caption">
                                   <h2 className="item-title">ELIE SAAB</h2>
                                   <h4 className="item-cat"><span data-hover="View Case">Video</span></h4>
@@ -177,8 +115,9 @@ class Home extends React.Component {
                           <div className="item design">
                             <div className="item-appear">
                               <div className="item-content">
-                                <a className="item-wrap ajax-link-project" data-type="page-transition" href="project04.html" />
+                                <Link className="item-wrap ajax-link-project" data-type="page-transition" to="/project4" >
                                 <div className="item-wrap-image"><div className="item-image" data-src="static/images/04hero.jpg" /></div>
+                                </Link>
                                 <div className="item-caption">
                                   <h2 className="item-title">LADY IN RED</h2>
                                   <h4 className="item-cat"><span data-hover="View Case">Design</span></h4>
@@ -189,8 +128,9 @@ class Home extends React.Component {
                           <div className="item design">
                             <div className="item-appear">
                               <div className="item-content">
-                                <a className="item-wrap ajax-link-project" data-type="page-transition" href="project05.html" />
+                                <Link className="item-wrap ajax-link-project" data-type="page-transition" to="/project5" >
                                 <div className="item-wrap-image"><div className="item-image" data-src="static/images/05hero.jpg" /></div>
+                                </Link>
                                 <div className="item-caption">
                                   <h2 className="item-title">INFO BUGS</h2>
                                   <h4 className="item-cat"><span data-hover="View Case">Design</span></h4>
@@ -201,8 +141,9 @@ class Home extends React.Component {
                           <div className="item photo">
                             <div className="item-appear">
                               <div className="item-content">
-                                <a className="item-wrap ajax-link-project" data-type="page-transition" href="project06.html" />
+                                <Link className="item-wrap ajax-link-project" data-type="page-transition" to="/project5" >
                                 <div className="item-wrap-image"><div className="item-image" data-src="static/images/06hero.jpg" /></div>
+                                </Link>
                                 <div className="item-caption">
                                   <h2 className="item-title">NEON DUDE</h2>
                                   <h4 className="item-cat"><span data-hover="View Case">Photography</span></h4>
@@ -263,61 +204,12 @@ class Home extends React.Component {
                       </div>
                       {/*/Portfolio Wrap */}
                     </div>
-                    {/*/Main Page Content */}
-                    {/* Project Navigation */}
-                    <div id="page-nav">
-                      <div className="next-page-wrap">
-                        <div className="next-page-title">
-                          <div className="inner text-align-center">
-                            <div className="page-subtitle has-animation" data-delay={100}>
-                              <div className="subtitle-info">Learn More</div>
-                              <div className="subtitle-name">Creative Studio Design</div>
-                            </div>
-                            <a className="page-title has-animation hide-ball next-ajax-link-page" data-type="page-transition" href="about.html" data-delay={150}>
-                              <span>A</span>
-                              <span>B</span>
-                              <span>O</span>
-                              <span>U</span>
-                              <span>T</span>
-                              <span> </span>
-                              <span>U</span>
-                              <span>S</span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/*/Project Navigation */}
                   </div>
                   {/*/Main Content */}
                 </div>
                 {/*/Main */}
                 {/* Footer */}
-                <footer className="hidden">
-                  <div id="footer-container">
-                    <div className="button-wrap left">
-                      <div className="icon-wrap parallax-wrap">
-                        <div className="button-icon parallax-element">
-                          <div className="bars">
-                            <div className="bar" /><div className="bar" /><div className="bar" /><div className="bar" /><div className="bar" />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="button-text"><span data-on="Sound On" data-off="Sound Off">Sound On</span></div>
-                    </div>
-                    <div className="socials-wrap">
-                      <div className="socials-icon"><i className="fa fa-share-alt" aria-hidden="true" /></div>
-                      <div className="socials-text">Follow Us</div>
-                      <ul className="socials">
-                        <li><span className="parallax-wrap"><a className="parallax-element" href="https://www.dribbble.com/clapat" target="_blank">Db</a></span></li>
-                        <li><span className="parallax-wrap"><a className="parallax-element" href="https://www.twitter.com/clapatdesign" target="_blank">Tw</a></span></li>
-                        <li><span className="parallax-wrap"><a className="parallax-element" href="https://www.behance.com/clapat" target="_blank">Be</a></span></li>
-                        <li><span className="parallax-wrap"><a className="parallax-element" href="https://www.facebook.com/clapat.ro" target="_blank">Fb</a></span></li>
-                        <li><span className="parallax-wrap"><a className="parallax-element" href="https://www.instagram.com/clapat.themes/">In</a></span></li>
-                      </ul>
-                    </div>
-                  </div>
-                </footer>
+
                 {/*/Footer */}
               </div>
               {/*/Content Scroll */}

@@ -9,10 +9,10 @@ exports.components = {
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\index.js"),
   "component---src-pages-page-2-js": require("gatsby-module-loader?name=component---src-pages-page-2-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\page-2.js"),
   "component---src-pages-project-1-js": require("gatsby-module-loader?name=component---src-pages-project-1-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\project1.js"),
-  "component---src-pages-project-2-js": require("gatsby-module-loader?name=component---src-pages-project-2-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\Project2.js"),
-  "component---src-pages-project-3-js": require("gatsby-module-loader?name=component---src-pages-project-3-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\Project3.js"),
-  "component---src-pages-project-4-js": require("gatsby-module-loader?name=component---src-pages-project-4-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\Project4.js"),
-  "component---src-pages-project-5-js": require("gatsby-module-loader?name=component---src-pages-project-5-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\Project5.js")
+  "component---src-pages-project-2-js": require("gatsby-module-loader?name=component---src-pages-project-2-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\project2.js"),
+  "component---src-pages-project-3-js": require("gatsby-module-loader?name=component---src-pages-project-3-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\project3.js"),
+  "component---src-pages-project-4-js": require("gatsby-module-loader?name=component---src-pages-project-4-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\project4.js"),
+  "component---src-pages-project-5-js": require("gatsby-module-loader?name=component---src-pages-project-5-js!C:\\Users\\Active\\OneDrive\\projects\\portfolio-gatsby-renew-zip\\portfolio-gatsby-renew\\src\\pages\\project5.js")
 }
 
 exports.json = {

@@ -42,7 +42,7 @@ Function Page Load
 		// Loadbar Animation
 		$(".loadbar").animate({
 			width: width + "%"
-		}, time / 0.8);	
+		}, time / 0.1);	
 		
 		
 		// Percentage Increment Animation
@@ -90,7 +90,7 @@ Function Page Load
 							
 								$('body').waitForImages({
 									finished: function() {
-										TweenMax.to($("#header-container, #footer-container"), 1, {force3D:true, opacity:1, delay:0.3, ease:Power2.easeOut});
+										TweenMax.to($("#header-container, #footer-container"), 1, {force3D:true, opacity:1, delay:0.1, ease:Power2.easeOut});
 										$('body').removeClass('hidden-ball');		
 									},
 									waitForAll: true
@@ -105,18 +105,18 @@ Function Page Load
 								var navtitleheight = $(".hero-title").height()
 								var navsubtitleheight = $(".hero-subtitle").height()
 								
-								TweenMax.to($("#main"), 0.2, {force3D:true, opacity:1, delay:0.1, ease:Power2.easeOut});
+								TweenMax.to($("#main"), 0.2, {force3D:true, opacity:1, delay:0, ease:Power2.easeOut});
 								if( $('#hero').hasClass("has-image")) {	
 									TweenMax.to($("#hero-bg-image"), 1, {force3D:true, scale:1.05 , opacity:1, delay:0.2, ease:Power2.easeOut});
-									TweenMax.to($(".hero-title"), 0.4, {force3D:true, y: -navtitleheight, opacity:1, delay:0.9, ease:Power2.easeOut});
+									TweenMax.to($(".hero-title"), 0.4, {force3D:true, y: -navtitleheight, opacity:1, delay:0.2, ease:Power2.easeOut});
 									TweenMax.to($(".hero-subtitle"), 0.4, {force3D:true, y:navsubtitleheight, opacity:1, delay:0.95, ease:Power2.easeOut});
 									TweenMax.to($(".scroll-down-wrap"), 0.4, {force3D:true, y: 0, opacity:1, delay:0.85, ease:Power2.easeOut});
-									TweenMax.to($("#main-page-content"), 0.4, {force3D:true, opacity:1, y:0, delay:1.15, ease:Power2.easeOut});
+									TweenMax.to($("#main-page-content"), 0.4, {force3D:true, opacity:1, y:0, delay:0.55, ease:Power2.easeOut});
 								} else {
-									TweenMax.to($(".hero-title"), 0.4, {force3D:true, y: -navsubtitleheight, opacity:1, delay:0.9, ease:Power2.easeOut});
+									TweenMax.to($(".hero-title"), 0.4, {force3D:true, y: -navsubtitleheight, opacity:1, delay:0.1, ease:Power2.easeOut});
 									TweenMax.to($(".hero-subtitle"), 0.4, {force3D:true, y: navtitleheight, opacity:1, delay:0.95, ease:Power2.easeOut});
 									TweenMax.to($(".post-article-wrap"), 0.4, {force3D:true, y: 0, opacity:1, delay:0.7, ease:Power2.easeOut});
-									TweenMax.to($("#main-page-content"), 0.4, {force3D:true, opacity:1, y:0, delay:1.05, ease:Power2.easeOut});									
+									TweenMax.to($("#main-page-content"), 0.4, {force3D:true, opacity:1, y:0, delay:0.55, ease:Power2.easeOut});									
 								}								
 								
 								if ($('#hero-bg-image').hasClass("light-content")) {
@@ -2308,9 +2308,9 @@ Function Contact Map
 				content: contentString
 			});	
 			var companyImage = new google.maps.MarkerImage('images/marker.png',
-				new google.maps.Size(58,63),<!-- Width and height of the marker -->
+				new google.maps.Size(58,63),
 				new google.maps.Point(0,0),
-				new google.maps.Point(35,20)<!-- Position of the marker -->
+				new google.maps.Point(35,20)
 			);
 			var companyPos = new google.maps.LatLng(43.270441,6.640888);	
 			var companyMarker = new google.maps.Marker({
