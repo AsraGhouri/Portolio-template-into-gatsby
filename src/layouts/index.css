@@ -1,3 +1,27 @@
+
+
+#hero{
+  opacity: 2;
+  color: white;
+}
+#hero-caption{
+  color: white;
+}
+.queen{
+  background-image : url('../pages/images/01hero.jpg')
+}
+.darK-path{
+  background-image : url('../pages/images/02hero.jpg')
+}
+.saab{
+  background-image : url('../pages/images/03hero.jpg')
+}
+.lady-in-red{
+  background-image : url('../pages/images/04hero.jpg')
+}
+.info-bugs{
+  background-image : url('../pages/images/05hero.jpg')
+}
 /* @media (min-width: 1025px){
 .flexnav {
     display: block;
@@ -27,7 +51,8 @@
     padding: 10px 30px 20px 30px;
 }
 } */
-.side-header{
+
+/* .side-header{
   width: 30%;
 }
 .header-note{
@@ -101,7 +126,36 @@
   background-size: cover;
   width: 70%;
   float: right;
-  height: 100vh;
+  height: 997px;
+}
+#slider-6-slide-5-layer-9{
+  z-index: 13;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: MAZHMED !important;
+    visibility: visible;
+    text-align: center;
+    line-height: 45px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px 25px;
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+    white-space: nowrap;
+    width: 223px;
+    height: auto;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
 }
 #hero{
   opacity: 2;
@@ -179,7 +233,7 @@ body:not(.nectar-no-flex-height) #ajax-content-wrap, body:not(.nectar-no-flex-he
 .vc_row-fluid::before, .vc_row-fluid::after {
   content: "";
   display: table;
-}
+} */
 /* .portfolio-filters-inline.full-width-section:not(.non-fw), .portfolio-filters-inline.full-width-content, .post-area.full-width-content.standard-minimal, .full-width-content.blog-fullwidth-wrap, .wpb_row.full-width-content, .full-width-content.nectar-shop-outer, .page-submenu > .full-width-section, .page-submenu .full-width-content, .wpb_row.full-width-section .mobile-video-image, body .full-width-section .row-bg-wrap, body .full-width-section .nectar-parallax-scene, body .full-width-section > .nectar-shape-divider-wrap, body .full-width-section > .video-color-overlay, body[data-aie="zoom-out"] .first-section .row-bg-wrap, body[data-aie="long-zoom-out"] .first-section .row-bg-wrap, body[data-aie="zoom-out"] .top-level.full-width-section .row-bg-wrap, body[data-aie="long-zoom-out"] .top-level.full-width-section .row-bg-wrap, body .full-width-section.parallax_section .row-bg-wrap, .nectar-slider-wrap[data-full-width="true"], .wpb_row.full-width-section .templatera_shortcode > .wpb_row.full-width-section > .row-bg-wrap {
   margin-left: -50vw;
   left: 50%;

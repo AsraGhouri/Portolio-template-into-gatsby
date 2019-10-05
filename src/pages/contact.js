@@ -2,7 +2,18 @@ import React from 'react'
 import  Link  from "gatsby-link"
 class Contact extends React.Component {
   componentDidMount(){
-    window.addEventListener('load', PageLoad(), FirstLoad(), ContactForm());
+    window.addEventListener('load',PageLoad(), FirstLoad(), Portfolio(),
+    Sliders(),
+    Showcase(),
+    ShowcaseCarousel(),
+    LargeShowcaseCarousel(),
+    AjaxLoad(),
+    BackToTop(),
+    JustifiedGrid(),
+    Lightbox(),
+    ContactForm(),
+    PlayVideo(),
+    ContactMap());
   }
   render() {
     return (
@@ -43,6 +54,7 @@ class Contact extends React.Component {
                     <div id="main-page-content">
                       {/* Row */}
                       <div className="vc_row row_padding_all full">
+                        <img src={require('./images/map.jpg')}/>
                         <div id="map_canvas" />
                       </div>
                       {/*/Row */}

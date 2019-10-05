@@ -134,7 +134,7 @@ module.exports = class HTML extends React.Component {
           <meta name="author" content="ClaPat Studio" />
           <meta charset="UTF-8" /> */}
           <link rel="icon" type="image/ico" href="favicon.ico" />
-          <link rel="stylesheet" href="animate.min.css"/>
+          {/* <link rel="stylesheet" href="animate.min.css"/> */}
           {this.props.headComponents}
           {css}
         </head>

@@ -15,6 +15,12 @@ class Home extends React.Component {
     ContactForm(),
     PlayVideo(),
     ContactMap());
+    const script = document.createElement("script");
+
+    script.src = "static/js/jquery.min.js";
+    script.async = true;
+
+    document.body.appendChild(script);
   }
   render() {
     return (
@@ -82,9 +88,8 @@ class Home extends React.Component {
                           <div className="item photo">
                             <div className="item-appear">
                               <div className="item-content">
-                                <Link className="item-wrap ajax-link-project" data-type="page-transition"  to="/project2" >
+                                <Link className="item-wrap ajax-link-project" data-type="page-transition"  to="/project2" ></Link>
                                 <div className="item-wrap-image"><div className="item-image" data-src="static/images/02hero.jpg" /></div>
-                                </Link>
                                 <div className="item-caption">
                                   <h2 className="item-title">DARK PATH</h2>
                                   <h4 className="item-cat"><span data-hover="View Case">Photography</span></h4>

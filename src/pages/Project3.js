@@ -2,7 +2,18 @@ import React from 'react';
 
 class Project3 extends React.Component{
   componentDidMount(){
-    window.addEventListener('load', PageLoad(), FirstLoad(), Portfolio(),     PlayVideo(),
+    window.addEventListener('load',PageLoad(), FirstLoad(), Portfolio(),
+    Sliders(),
+    Showcase(),
+    ShowcaseCarousel(),
+    LargeShowcaseCarousel(),
+    AjaxLoad(),
+    BackToTop(),
+    JustifiedGrid(),
+    Lightbox(),
+    ContactForm(),
+    PlayVideo(),
+    ContactMap()
   );
   }
     render(){
